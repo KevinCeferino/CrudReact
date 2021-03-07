@@ -1,9 +1,9 @@
-
+import Listadonombres from './components/Listadonombres'
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="App container">
+      <Listadonombres/>
     </div>
   );
 }
